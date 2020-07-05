@@ -10,6 +10,7 @@ Autor: *Martyna Kuryłowicz*
 [Github autora](https://github.com/martynakurylowicz)
 
 Strona została przygotowana na opracowanym przez organizatorów webpacku - Webpack Starter Kit.
+
 Projekt graficzny aplikacji przygotowany przez organizatorów.
 
 ## Szkolenie WTF
