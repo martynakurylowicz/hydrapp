@@ -11,6 +11,7 @@ body {
 .background {
   display: flex;
   margin: auto;
+  height: 100vh;
 }
 
 .app__background {
@@ -66,7 +67,9 @@ body {
   line-height: 131px;
   color: #000000;
   margin-top: 114px;
-  left: 76px;
+  width: 212px;
+  left: 0;
+  text-align: center;
 }
 
 .app__plus {
