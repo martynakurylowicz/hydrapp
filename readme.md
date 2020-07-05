@@ -1,18 +1,18 @@
-![cover](https://cotenfrontend.pl/img/cover.png)
+![avatar](https://avatars0.githubusercontent.com/u/64781316?s=460&u=98ad0ca4780d26c9a21158fcd4ffb78c9c0aeadf&v=4)
 
-# WTF Webpack Starter Kit 
+# WTF: Co ten frontend
+Praca domowa - tydzień 10 szkolenia WTF: Co ten frontend edycja 2020r.
 
-Simple toolkit for your static websites development.
+**Zadanie:** Stworzenie aplikacji hydrapp do liczenia wypitych szklanek wody.
 
-## How to use it?
+Autor: *Martyna Kuryłowicz*
 
-Click on `Use this template` button to generate a new repository based on this starter kit. After that clone it to your computer, go to the project directory in console and type `npm install`.
+[Github autora](https://github.com/martynakurylowicz)
 
-## Available scripts
+Strona została przygotowana na opracowanym przez organizatorów webpacku - Webpack Starter Kit.
+Projekt graficzny aplikacji przygotowany przez organizatorów.
 
-`npm run start` - runs development mode
+## Szkolenie WTF
 
-`npm run build` - runs build process for production
-
-`npm run publish` - runs build process and publish the page using `gh-pages` branch
+[Co ten frontend - program szkolenia](https://cotenfrontend.pl/)
 
