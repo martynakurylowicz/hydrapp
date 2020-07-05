@@ -1,13 +1,102 @@
 @import "~normalize.css";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
 
 @import "_variables";
 @import "modules/hello.scss";
 
 body {
-  background: $wtf;
-  color: #fff;
+  background: #3767ad;
+}
+
+.background {
+  display: flex;
+  margin: auto;
+}
+
+.app__background {
+  background: #3767ad;
+  width: 375px;
+  height: 812px;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  margin: auto;
+}
+
+.app__title {
+  color: white;
+  box-sizing: border-box;
+  margin-top: 87px;
+  margin-bottom: 0;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 55px;
+  line-height: 64px;
   display: flex;
   align-items: center;
-  justify-content: center;
-  min-height: 100vh;
+  text-align: center;
+  margin-bottom: 68px;
+}
+
+.app__image {
+  box-sizing: border-box;
+  align-items: center;
+  position: relative;
+  &--glass {
+    z-index: 0;
+  }
+  &--water {
+    z-index: 1;
+    position: absolute;
+    left: 24px;
+    top: 63px;
+  }
+}
+
+.glass__number {
+  box-sizing: border-box;
+  z-index: 2;
+  position: absolute;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 112px;
+  line-height: 131px;
+  color: #000000;
+  margin-top: 114px;
+  left: 76px;
+}
+
+.app__plus {
+  width: 216px;
+  height: 47px;
+  box-sizing: border-box;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  margin-top: 48px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  border-style: none;
+  color: #000000;
+}
+
+.app__minus {
+  width: 184px;
+  height: 23px;
+  background: transparent;
+  border: none;
+  box-sizing: border-box;
+  margin-top: 37px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #f5e5e7;
 }
